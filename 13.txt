@@ -1,0 +1,20 @@
+📂 Problem 4: Read and Write JSON File
+
+Concept: File System (fs), JSON handling
+Statement:
+Write a Node.js script that reads a data.json file, adds a new object to it, and saves the updated content back to the file.
+
+
+
+
+🧠 How It Works
+
+fs.readFile() → Reads the contents of data.json.
+
+JSON.parse() → Converts it from string to JS array/object.
+
+Adds a new object (with a unique id each time).
+
+fs.writeFile() → Writes the updated JSON back to disk.
+
+The null, 2 in JSON.stringify() ensures pretty indentation.

@@ -1,0 +1,5 @@
+🧩 Problem 1: Rate Limiter Middleware
+
+Concept: Middleware, Express.js, Timing logic
+Statement:
+Create a rate limiter middleware that allows each IP to make a maximum of 5 requests per minute. If the limit is exceeded, respond with status 429 Too Many Requests.

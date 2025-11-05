@@ -1,0 +1,5 @@
+⚙️ Problem 2: File Upload Server
+
+Concept: File handling with multer
+Statement:
+Build an API that lets users upload image files and saves them to a local folder uploads/.

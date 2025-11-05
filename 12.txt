@@ -1,0 +1,5 @@
+🧠 Problem 3: Caching API Data
+
+Concept: Using cache to avoid redundant API calls
+Statement:
+Create an endpoint /data that fetches data from a fake API (like https://jsonplaceholder.typicode.com/posts) and caches it in memory for 1 minute.

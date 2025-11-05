@@ -1,0 +1,5 @@
+🧩 Problem 5: Simple JWT Authentication
+
+Concept: Authentication, Middleware, JWT
+Statement:
+Create a server with /login and /profile endpoints. Users can log in with a username and get a JWT. The /profile route should be protected.
