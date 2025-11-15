@@ -1,0 +1,24 @@
+✅ Problem 2: JWT Auth System (Login + Protect Route)
+Problem Statement
+
+Implement a Node.js authentication system with:
+
+/login route → takes email and password, returns JWT
+
+/profile route → protected, only accessible with valid JWT
+
+Throw errors if:
+
+token invalid
+
+token expired
+
+no token provided
+
+Requirements
+
+Use jsonwebtoken
+
+Use middleware for checking token
+
+No database needed (hardcode user for demo)

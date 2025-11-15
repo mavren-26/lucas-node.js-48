@@ -1,0 +1,17 @@
+✅ Problem 1: Build a Rate Limiter (per IP) Without Any Library
+Problem Statement
+
+Create a custom middleware in Node.js that limits each IP address to 100 requests per 15 minutes.
+If the user exceeds the limit, return:
+
+{ "error": "Too many requests" }
+
+Constraints
+
+No external rate-limit libraries
+
+Store request counts in memory (simple Map)
+
+Use Express middleware
+
+Reset counts after 15 minutes
